@@ -1,0 +1,8 @@
+{
+	"services": {
+		"userController": {
+			"class": "../src/controller/user.controller",
+			"arguments": ["@userService"]
+		}
+	}
+}

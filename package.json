@@ -1,0 +1,28 @@
+{
+  "name": "api-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "lint": "eslint src/**"
+  },
+  "author": "Bogdan Geraymovich",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "glob-promise": "^3.4.0",
+    "lodash": "^4.17.11",
+    "node-dependency-injection": "^2.1.0",
+    "nodemon": "^1.18.9",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0"
+  }
+}

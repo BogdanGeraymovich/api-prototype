@@ -1,0 +1,12 @@
+{
+	"services": {
+		"userService": {
+			"class": "../src/services/user.service",
+			"arguments": []
+		},
+		"logger": {
+			"class": "./winston",
+			"arguments": []
+		}
+	}
+}

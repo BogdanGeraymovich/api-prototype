@@ -29,8 +29,8 @@ const init = async () => {
     const container = initServiceContainer();
     await loadRoutes(container);
 
-    app.listen(config.port, () => {
-      logger.info(`App started at ${config.port}`);
+    app.listen(config.serverPort, () => {
+      logger.info(`App started at ${config.serverPort}`);
     });
   } catch (error) {
     logger.error(error);
